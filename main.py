@@ -9,8 +9,8 @@ load_dotenv(override=True)
 
 llm =ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
-db = SQLDatabase.from_uri("mysql+mysqlconnector://root:Vivek%402018@localhost/books_db")
-# db = SQLDatabase.from_uri("mysql+mysqlconnector://root:Vivek%402018@localhost/books_db")
+db = SQLDatabase.from_uri("mysql+mysqlconnector://root:password@localhost/books_db")
+# db = SQLDatabase.from_uri("mysql+mysqlconnector://root:password@localhost/books_db")
 
 # print(db.get_usable_table_names())
 
